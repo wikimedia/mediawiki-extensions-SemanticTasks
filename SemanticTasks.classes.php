@@ -1,15 +1,5 @@
 <?php
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-	echo 'Not a valid entry point';
-	exit( 1 );
-}
-
-if ( !defined( 'SMW_VERSION' ) ) {
-	echo 'This extension requires Semantic MediaWiki to be installed.';
-	exit( 1 );
-}
-
 // constants for message type
 define( 'NEWTASK', 0 );
 define( 'UPDATE', 1 );
